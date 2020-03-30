@@ -1,0 +1,9 @@
+Vert.x in action 第一节的几个简单的例子，看 reactive systems 是如何一步步演变过来的
+
+|                                         |                          |
+|-----------------------------------------+--------------------------|
+| Blocking APIs                           | 编码简单，但浪费资源     |
+| Non-Blocking APIs                       | low-level APIs, 编码复杂 |
+| 基于 async + non-blocking 的 event-loop | high-level APIs          |
+
+ps: 可以对照着 Rust 的 mio 库，async-await tokio/async-std 库来看
